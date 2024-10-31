@@ -55,7 +55,6 @@ audio{
     width: 400px;
     margin: auto;
     position: relative;
-    right: -430pt;
 }
 #quote {
     text-align: center;
@@ -193,4 +192,16 @@ main section h2 {
 }
 #family {
     color: #D6B4FC;
+}
+#left {
+    float: left;
+    width: 20%;
+}
+#center {
+    float: left;
+    width: 60%;
+}
+#right {
+    float: left;
+    width: 20%;
 }
