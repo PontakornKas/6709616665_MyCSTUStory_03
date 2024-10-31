@@ -1,0 +1,196 @@
+body {
+    background-image: url(resources/background2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+#fblink {
+    text-align: center;
+    font-size: 14pt;
+}
+#liketable{
+    text-align: center;
+    margin: auto;
+}
+#fullname{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17pt;
+}
+#nickname{
+    color: slateblue;
+    font-style: italic;
+    font-size: 17pt;
+}
+#mypic{
+    width: 200px;
+    height: 230px;
+    display: block;
+    margin: auto;
+}
+#tablecap{
+    margin: 8pt;
+    font-size: 24pt;
+}
+audio{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    right: -430pt;
+}
+#quote {
+    text-align: center;
+    font-size: 15pt;
+}
+ul {
+    font-size: 16pt;
+}
+#favourite {
+    font-size: 15pt;
+}
+video {
+    position:relative;
+    overflow: hidden;
+    width:40%;
+    height:auto;
+    margin: auto;
+    display: block;
+}
+#color{
+    color: blue;
+    font-weight: bold;
+}
+#food {
+    color: green;
+    font-weight: bold;
+}
+#genre{
+    color: yellow;
+    font-weight: bold;
+}
+#music{
+    color: darkblue;
+    font-weight: bold;
+}
+#place{
+    color: red;
+    font-weight: bold;
+}
+#frost{
+    font-style: italic;
+}
+#limbus{
+    width: 150px;
+    height: 150px;
+}
+#plcover{
+    width: 150px;
+    height: 150px;
+}
+#larp {
+    width: 200px;
+    height: 150px;
+}
+#durian {
+    width: 180px;
+    height: 150px;
+}
+ul li {
+    color: orange;
+    list-style-type: disc;
+}
+ul li p{
+    color: black;
+}
+#cs{
+    color: darkblue;
+    font-style: italic;
+}
+#tu{
+    color: #FFAE42;
+    font-style: italic;
+    font-weight: bold;
+}
+#itgoeson{
+    font-style: italic;
+    font-weight: bold;  
+}
+nav p {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+main section {
+    text-align: center;
+}
+li {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+main section h2 {
+    font-size: 30px;
+}
+#descj {
+    text-align: center;
+    font-size: 23px;
+}
+#fusect {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#descf {
+    text-align: center;
+    font-size: 23px;
+}
+#c {
+    width: 200px;
+    height: 150px;
+}
+#python {
+    width: 300px;
+    height: 150px;
+}
+#Cash {
+    width: 300px;
+    height: 150px;
+}
+#pythonli {
+    color: #4B8BBE;
+}
+#clang {
+    color: #165CAA;
+}
+#html {
+    color: #E34C26
+}
+#calculus {
+    color: darkblue;
+}
+#future {
+    color: #4E5481;
+}
+#pay {
+    color: #85BB65;
+}
+#family {
+    color: #D6B4FC;
+}

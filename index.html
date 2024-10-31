@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSTU Story</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+    <div>
+        <h1>My CSTU Story</h1>
+        <img id="mypic" src="resources/mypic.png" alt="Picture of StudentID 6709616665" title="Picture of StudentID 6709616665">
+        <p id="para1">Hi, My name is <span id="fullname">Pontakorn Kasemsawad</span> and my nickname is <span id="nickname">Phet</span>.<br> 
+            I'm currently studying at the Department of <span id="cs">Computer Science</span>, Faculty of Science and Technology at <span id="tu">Thammasat University</span>.<p>
+    </div>
+    <hr>
+    <video controls>
+        <source src="resources/myvdo.mp4">
+    </video>
+    <hr>
+    
+    <table id="liketable" border="1" cellspacing="0" cellpadding="10" width="70%"> 
+        <caption><h2 id="tablecap">About Myself</h2></caption>
+        <td>
+            <h2>3 Things I like</h2>
+            <ul>
+                <li><p>Game</p></li>
+                <img id="limbus" src="resources/Limbus_Company_cover.png" alt="Video Game named Limbus Company" title="Video Game named Limbus Company">
+                <li><p>Manga</p></li>
+                <li><p>Music</p></li>
+            </ul>
+        </td>
+        <td>
+            <h2>3 Things I don't like</h2>
+            <ul>
+                <li><p>Durian</p></li>
+                <img id="durian" src="resources/durian.jpg" alt="Durian" title="Durian">
+                <li><p>Bitter Food</p></li>
+                <li><p>Summer</p></li>
+            </ul>
+        </td>
+        <td>
+            <h2>Favourite Things</h2>
+            <p id="favourite"><span id="color">Color</span>: Black and blue <br>
+               <span id="food">Food</span>: Larp <br>
+               <img id="larp" src="resources/larp.jpg" alt="Larp" title="Larp"> <br>
+               <span id="genre">Music Genre</span>: Jazz, Pop and Rock <br>
+               <span id="music">Music</span>: Mariya Takeuchi - Plastic Love <br>
+               <img id="plcover" src="resources/Plastic_Love.jpg" alt="Plastic Love Cover" title="Platic Love Cover"> <br>
+               <span id="place">Place</span>: Home <br>
+            </p>
+        </td>
+    </tr>
+    </table>
+
+    <p id="fblink">This is the <a href="https://www.facebook.com/profile.php?id=100005800262623">link to my Facebook Page</a></p>
+
+    <blockquote id="quote" cite="https://www.goodreads.com/quotes/258-in-three-words-i-can-sum-up-everything-i-ve-learned">
+        <p>“In three words I can sum up everything I've learned about life: <span id="itgoeson">it goes on</span>.” - <span id="frost">Robert Frost</span></p>
+    </blockquote>
+
+    <audio controls id="plasticlove">
+        <source src="resources/PlasticLove.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <script>
+        var audio = document.getElementById("plasticlove");
+        audio.volume = 0.3
+    </script>
+
+<nav>
+    <p><a id="journey" href="myjourney.html">My Journey</a></p>
+    <p><a id="future" href="myfuture.html">My Future</a></p>
+</nav>
+
+</body>
+</html>
