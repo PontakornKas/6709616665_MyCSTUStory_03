@@ -29,6 +29,8 @@ p {
 #liketable{
     text-align: center;
     margin: auto;
+    width: 100%;
+    border-collapse: collapse;
 }
 #fullname{
     color: blue;
@@ -52,7 +54,7 @@ p {
     font-size: 24pt;
 }
 audio{
-    width: 400px;
+    width: 100%;
     margin: auto;
     position: relative;
 }
@@ -69,7 +71,7 @@ ul {
 video {
     position:relative;
     overflow: hidden;
-    width:40%;
+    width: 100%;
     height:auto;
     margin: auto;
     display: block;
@@ -193,15 +195,35 @@ main section h2 {
 #family {
     color: #D6B4FC;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
 #left {
-    float: left;
+    flex: 1;
     width: 20%;
+    min-width: 200px;
+    padding: 20px;
 }
 #center {
-    float: left;
+    flex: 2;
     width: 60%;
+    padding: 20px;
 }
 #right {
-    float: left;
+    flex: 1;
     width: 20%;
+    min-width: 200px;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+td {
+    vertical-align: top;
+}
+header{
+    text-align: center;
+    padding: 20px 0;
 }
